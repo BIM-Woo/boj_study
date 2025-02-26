@@ -17,7 +17,7 @@ def max_fruit_count(n, fruits):  #투 포인터 알고리즘으로 변수 초기
     left = 0                     # 왼쪽 포인터
     max_count = 0                # 최대 과일 개수
     fruit_count = Counter()      # 과일 개수를 세는 딕셔너리
-
+ 
     for right in range(n):                          # 오른쪽 포인터 이동     
         fruit_count[fruits[right]] += 1             # 과일 개수 세기
 
